@@ -16,7 +16,7 @@ jobs:
        steps:
            - checkout
            - add_ssh_keys:
-           - run: ssh $ubuntu@$ip-172-31-45-122
+           - run: ssh ubuntu@ip-172-31-45-122
 
 workflows:
    version: 2

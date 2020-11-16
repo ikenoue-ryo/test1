@@ -16,7 +16,7 @@ jobs:
        steps:
            - checkout
            - add_ssh_keys:
-           - run: ssh ubuntu@ip-172-31-45-122
+           - run: ssh $ubuntu@$ec2-3-112-34-148.ap-northeast-1.compute.amazonaws.com
 
 workflows:
    version: 2

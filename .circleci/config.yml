@@ -16,7 +16,7 @@ jobs:
        steps:
            - checkout
            - add_ssh_keys:
-           - run: ssh $ubuntu@$3.112.34.148 'cd ~/project& git clone https://github.com/ikenoue-ryo/test1.git'
+           - run: ssh $ubuntu@$3.112.34.148 'cd ~/project'
 
 workflows:
    version: 2

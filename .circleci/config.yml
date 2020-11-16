@@ -16,7 +16,7 @@ jobs:
        steps:
            - checkout
            - add_ssh_keys:
-           - run: ssh $ubuntu@$3.112.34.148 'cd ~/test_app& git pull origin master'
+           - run: ssh $ubuntu@$3.112.34.148 'cd ~/test1& git pull origin master'
 
 workflows:
    version: 2

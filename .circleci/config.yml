@@ -16,7 +16,7 @@ jobs:
        steps:
            - checkout
            - add_ssh_keys:
-           - run: ssh $ubuntu@$3.112.34.148
+           - run: ssh $ubuntu@$ec2-3-112-34-148
 
 workflows:
    version: 2
